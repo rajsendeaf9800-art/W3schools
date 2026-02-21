@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Download App</title>
+
+<style>
+* {
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  h1 {
+    margin-bottom: 20px;
+    color: black;
+  }
+
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 220px;
+    margin: 10px auto;
+    padding: 14px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    transition: 0.3s;
+  }
+
+  .apk {
+    background: #22c55e;
+  }
+
+  .apk:active {
+    background: #16a34a;
+  }
+
+  .tar {
+    background: #3b82f6;
+  }
+
+  .tar:active{
+    background: #2563eb;
+  }
+
+  .icon {
+    font-size: 18px;
+  }
+</style>
+
+</head>
+<body>
+
+<div class="container">
+  <img src="s.svg" oncontextmenu="return false;">
+  <h1>W3schools offline app</h1>
+  <h1>Download App</h1>
+
+  <!-- APK Download -->
+  <a href="https://github.com/rajsendeaf9800-art/W3schools/releases/download/v1.0/w3schools_release.apk" class="btn apk" download>
+    <span class="icon">⬇️</span>
+    Download APK
+  </a>
+
+  <!-- TAR.GZ Download -->
+  <a href="https://github.com/rajsendeaf9800-art/W3schools/releases/download/v1.0/w3schools.tar.gz" class="btn tar" download>
+    <span class="icon">⬇️</span>
+    Download .tar.gz
+  </a>
+
+</div>
+
+</body>
+</html>
