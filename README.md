@@ -1,2 +1,27 @@
-# W3schools
-Learn web development offline with this W3Schools-inspired app. Access HTML, CSS, JavaScript tutorials, examples, and references anytime. Fast, lightweight, and easy to use with dark mode support—perfect for beginners and developers on the go.
+# 📱 W3Schools Offline App
+
+A lightweight Android app to learn web development offline.  
+Inspired by W3Schools, this app provides tutorials, examples, and references for HTML, CSS, JavaScript, and more — all without internet.
+
+---
+
+## 🚀 Features
+
+- 📚 Offline access to tutorials
+- 💻 HTML, CSS, JavaScript learning
+- 🧪 Example-based explanations
+- ⚡ Fast and lightweight performance
+- 🎨 Clean and simple UI
+- 🌙 Dark / Light mode support
+- 🔍 Easy navigation
+
+---
+
+## 📦 Download
+
+👉 Go to the **Releases** section and download:
+
+- 📱 APK file (direct install)
+- 🗜️ `.tar.gz` (highly compressed archive)
+
+---
